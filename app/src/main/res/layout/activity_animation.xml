@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/baselayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.datechnologies.androidtest.animation.AnimationActivity">
+
+    <ImageView
+        android:id="@+id/animateimgview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/gpc_logo"
+        android:background="@drawable/gpc_logo"
+        android:layout_centerHorizontal="true"
+
+        />
+
+
+    <Button
+        android:id="@+id/fadebtn"
+        android:layout_width="300dp"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_below="@+id/animateimgview"
+        android:background="@drawable/ripple_effect"
+        android:layout_centerHorizontal="true"
+        android:text="FADE" />
+
+
+</RelativeLayout>
